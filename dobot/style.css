@@ -37,6 +37,9 @@ img {
   width: 50%;
 }
 div {
+    width: 50px;
+    padding: 10px
+    border: 5px solid #48D1CC ;
     background-color: #48D1CC;
     color: white;
     font-size:  12px;
