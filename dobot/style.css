@@ -3,9 +3,6 @@ body {
   float: left;
   border: 1px solid #202020;
   left: 50px;
-  display: inline-block;
-  vertical-align: top;
-  width:  50%;
 }
 h1 {
     color:  #ffffff;
@@ -35,7 +32,6 @@ a {
 }
 img {
   float: right;
-  width: 50%;
 }
 div {
     width: 50px;
