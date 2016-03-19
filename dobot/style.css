@@ -34,11 +34,11 @@ img {
   float: right;
 }
 div {
-    width: 50px;
-    padding: 10px
+    width: 150px;
+    padding: 30px
     border: 1px solid #48D1CC ;
     background-color: #48D1CC;
     color: white;
-    font-size:  24px;
+    font-size:  20px;
     font-family: LFT Etica;
 }
