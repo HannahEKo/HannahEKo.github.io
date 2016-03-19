@@ -37,7 +37,11 @@ h3 {
     font-size:  12px;
     font-family: "LFT Etica";
 }
-.div {
+img {
+  float: right;
+  width: 50%;
+}
+div {
     background-color: #48D1CC;
     color: white;
     font-size:  12px;
