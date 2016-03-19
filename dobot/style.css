@@ -10,7 +10,7 @@ body {
 h1 {
     color:  #ffffff;
     font-size:  28px;
-    font-family: Quatro Slab;
+    font-family: "Quatro Slab";
     font-weight: bold;
     border: 1px solid  #202020;
     margin: 15px 0;
@@ -20,31 +20,26 @@ h1 {
 h2 {
     color:  #696969;
     font-size:  12px;
-    font-family: LFT Etica;
-    font-weight: normal;
+    font-family: "LFT Etica";
 }
 p {
     color:  #A9A9A9;
     font-size:  12px;
-    font-family: LFT Etica;
-    font-weight: normal;
+    font-family: "LFT Etica";
 }
 div {
     color:  #48D1CC;
     font-size:  12px;
-    font-family: LFT Etica;
-    font-weight: normal;
+    font-family: "LFT Etica";
 }
 h3 {
     color:  #ffffff;
     font-size:  12px;
-    font-family: LFT Etica;
-    font-weight: normal;
+    font-family: "LFT Etica";
 }
 .div {
     background-color: #48D1CC;
     color: white;
     font-size:  12px;
-    font-family: LFT Etica;
-    font-weight: normal;
+    font-family: "LFT Etica";
 }
