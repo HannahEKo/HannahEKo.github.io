@@ -1,4 +1,4 @@
-.body {
+body {
   background-color:  #202020;
   float: left;
   border: 1px solid #202020;
@@ -7,7 +7,7 @@
   vertical-align: top;
   width: 50%;
 }
-.img {
+img {
   margin-left: 300px;
   width: 300px;
   height: 500px;
