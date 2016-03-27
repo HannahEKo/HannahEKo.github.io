@@ -66,6 +66,12 @@ body {
     width: 50%;
     height: 100%;
 }
+.col-left {
+    background-color:  #1a2325;
+}
+.col-right {
+    background-color:  #1a2325;
+    text-align: center;
 .content {
     display:table-cell;
     vertical-align:middle;
