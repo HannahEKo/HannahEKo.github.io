@@ -44,9 +44,9 @@ table {
 body {
   background: #1a2325;
 }
-article {
+.section {
     width:1000px;
-    margin: 500px;
+    margin: 500px auto;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -79,7 +79,6 @@ p {
     font-weight: Regular;
 }
 h3 {
-    position: article;
     float: left;
     width: 50%;
     color:  #01bfc1;
@@ -90,7 +89,6 @@ h3 {
     display: inline-block;
 }
 h4 {
-    position: article;
     float: left;
     width: 50%;
     color:  #ffffff;
@@ -99,7 +97,6 @@ h4 {
     font-weight: Regular;
 }
 button {
-    position: article;
     float: left;
     width: 50%;
     padding: 14px 25px;
