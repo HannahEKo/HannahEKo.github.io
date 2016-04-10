@@ -44,47 +44,64 @@ table {
 body {
   background: #1a2325;
 }
+article {
+    width:1180px;
+    margin: 800px;
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
 h1 {
+    position: article;
+    float: left;
+    width: 50%;
     color:  #ffffff;
     font-size:  36px;
     font-family: Quatro Slab;
     font-weight: Regular;
-    border: 1px solid  #1a2325;
-    margin: 15px 0;
-    padding:  15px;
-    text-align: left;
-    float: left;
 }
 h2 {
+    position: article;
+    float: left;
+    width: 50%;
     color:  #555a5b;
     font-size:  16px;
     font-family: LFT Etica;
     font-weight: Book;
-    float: left;
 }
 p {
+    position: article;
+    float: left;
+    width: 50%;
     color:  #abadad;
     font-size:  16px;
     font-family: LFT Etica;
     font-weight: Regular;
-    float: left;
 }
 h3 {
-    color:  #401bfc1;
+    position: article;
+    float: left;
+    width: 50%;
+    color:  #01bfc1;
     font-size:  16px;
     font-family: LFT Etica;
+    font-weight: Regular;
     text-decoration: none;
     display: inline-block;
-    float: left;
 }
 h4 {
+    position: article;
+    float: left;
+    width: 50%;
     color:  #ffffff;
     font-size:  24px;
     font-family: Quatro Slab;
     font-weight: Regular;
-    float: left;
 }
-div {
+button {
+    position: article;
+    float: left;
+    width: 50%;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -95,8 +112,12 @@ div {
     text-decoration: none;
     display: inline-block;
 }
-img{
-    float: right;
-    
-
+img {
+    position: article;
+    margin-left: 50%;
+    float: right
+    top: 0px;
+}
+.clearfix {
+    overflow:: auto;
 }
