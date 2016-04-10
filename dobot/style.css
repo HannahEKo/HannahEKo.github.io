@@ -45,8 +45,8 @@ body {
   background: #1a2325;
 }
 article {
-    width:1180px;
-    margin: 800px;
+    width:1000px;
+    margin: 500px;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -114,7 +114,7 @@ button {
 }
 img {
     position: article;
-    margin-left: 50%;
+    width: 50%;
     float: right
     top: 0px;
 }
