@@ -58,7 +58,7 @@ body {
     margin-right: auto;
 }
 article {
-    max-width: 1250px;
+    max-width: 2500px;
     height: auto;
     margin-left: 7%;
     margin-right: 7%;
@@ -131,7 +131,6 @@ button {
 
 }
 img {
-    position: article;
     float: right;
     height: auto;
     top: 0;
