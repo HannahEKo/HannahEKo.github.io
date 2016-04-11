@@ -45,11 +45,16 @@ body {
   background: #1a2325;
 }
 .section {
-    width:1000px;
+    width:1280px;
+    height: 2900px;
     margin: 500px auto;
     -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
             box-sizing: border-box;
+}
+article {
+    width: 640px;
+    height: 800px;
 }
 h1 {
     position: article;
@@ -79,6 +84,7 @@ p {
     font-weight: Regular;
 }
 h3 {
+    position: article;
     float: left;
     width: 50%;
     color:  #01bfc1;
@@ -89,6 +95,7 @@ h3 {
     display: inline-block;
 }
 h4 {
+    position: article;
     float: left;
     width: 50%;
     color:  #ffffff;
@@ -97,8 +104,7 @@ h4 {
     font-weight: Regular;
 }
 button {
-    float: left;
-    width: 50%;
+    position: article;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -115,5 +121,6 @@ img {
     top: 0px;
 }
 .clearfix {
+    position: section;
     overflow:: auto;
 }
