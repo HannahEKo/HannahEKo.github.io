@@ -99,6 +99,8 @@ p {
     font-family: LFT Etica;
     font-weight: Regular;
     line-height: 1.5em;
+    left: 0;
+    width: 50%;
 }
 h3 {
     position: article;
