@@ -68,6 +68,7 @@ article {
     clear: both;
 }
 h1 {
+    position: article;
     color:#ffffff;
     font-size: 36px;
     font-family: Quatro Slab;
@@ -80,6 +81,7 @@ h1 {
     float: left;
 }
 h2 {
+    position: article;
     width: 50%;
     color: #555a5b;
     font-size: 16px;
@@ -88,6 +90,7 @@ h2 {
     margin-bottom: 30px;
 }
 p {
+    position: article;
     float: left;
     width: 50%;
     color:  #abadad;
@@ -97,6 +100,7 @@ p {
     line-height: 1.5em;
 }
 h3 {
+    position: article;
     float: left;
     color: #01bfc1;
     font-size: 16px;
@@ -107,6 +111,7 @@ h3 {
     border-bottom: 2px dotted #31393b;
 }
 h4 {
+    position: article;
     clear: left;
     color:  #ffffff;
     float: left;
@@ -118,6 +123,7 @@ h4 {
     margin-top: 42px;
 }
 button {
+    position: article;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -131,6 +137,7 @@ button {
 
 }
 img {
+    position: article;
     float: right;
     height: auto;
     top: 0;
