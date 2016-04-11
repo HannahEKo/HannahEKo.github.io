@@ -142,12 +142,9 @@ button {
 }
 img {
     position: article;
-    width: 58%;
-    height: 100%;
+    width: 50%;
+    height: auto;
     float: right;
-    margin-top: -148px;
-    max-width: 640px;
-    padding-left: 8.5%;
 }
 .clearfix {
     overflow: auto;
