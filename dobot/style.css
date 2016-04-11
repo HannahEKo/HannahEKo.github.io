@@ -43,27 +43,27 @@ table {
 }
 body {
   background: #1a2325;
-  width:1250px;
+  width:1280px;
   height: 2950px;
 }
 article {
-    width: 1250px;
+    width: 1280px;
     height: 1000px;
     border-left: 76px;
     border-right: 76px;
     border-bottom: 100px;
     border-top: 100px;
-    border-style: solid;
+    border-style: solid #1a2325;;
 }
 section {
     width: 640px;
-    height: 600px;
+    height: 800px;
     border-bottom: 2px dotted #31393b;
 }
 h1 {
     float: left;
     color:#ffffff;
-    font-size:  36px;
+    font-size: 36px;
     font-family: Quatro Slab;
     font-weight: Regular;
     width: 260px;
@@ -71,8 +71,6 @@ h1 {
 }
 h2 {
     float: left;
-    width: 3px;
-    height: auto;
     color:  #555a5b;
     font-size:  16px;
     font-family: LFT Etica;
@@ -80,27 +78,26 @@ h2 {
 }
 p {
     float: left;
-    width: 360px;
+    width: 640px;
     color:  #abadad;
-    font-size:  16px;
+    font-size: 16px;
     font-family: LFT Etica;
     font-weight: Regular;
 }
 h3 {
     float: left;
-    color:  #01bfc1;
-    font-size:  16px;
+    color: #01bfc1;
+    font-size: 16px;
     font-family: LFT Etica;
     font-weight: Regular;
     text-decoration: none;
     display: inline-block;
 }
 em {
-    width: 380;
+    width: 300px;
     height: auto;
 }
 h4 {
-    position: article;
     clear: left;
     color:  #ffffff;
     font-size:  24px;
@@ -108,7 +105,6 @@ h4 {
     font-weight: Regular;
 }
 button {
-    position: article;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -120,7 +116,6 @@ button {
     display: inline-block;
 }
 img {
-    position: article;
     width: 640px;
     height: 800px;
     float: right;
