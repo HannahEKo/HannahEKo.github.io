@@ -105,6 +105,7 @@ h4 {
 }
 button {
     position: article;
+    float: left;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -116,11 +117,11 @@ button {
     display: inline-block;
 }
 img {
+    position: section;
     width: 50%;
     float: right;
     top: 0px;
 }
 .clearfix {
-    position: section;
     overflow:: auto;
 }
