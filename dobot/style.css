@@ -51,10 +51,10 @@ article {
     height: 1000px;
     border-left: 76px;
     border-right: 76px;
-    border-bottom: 100px solid #31393b;
+    border-bottom: 100px;
     border-top: 100px;
     border-style: solid;
-    border-color: #1a2325;
+    border-color: #31393b;
     -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
