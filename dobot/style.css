@@ -138,6 +138,11 @@ img {
 @media only screen and (max-width: 669px) {
     h1 {
         font-size: 24px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 @media only screen and (min-width: 670px) {
     h1 {
