@@ -56,8 +56,8 @@ article {
     border-style: solid;
 }
 section {
-    width: 380px;
-    height: 470px;
+    width: 640px;
+    height: 600px;
     border-bottom: 2px dotted #31393b;
 }
 h1 {
@@ -71,7 +71,7 @@ h1 {
 }
 h2 {
     float: left;
-    width: 360px;
+    width: 3px;
     height: auto;
     color:  #555a5b;
     font-size:  16px;
