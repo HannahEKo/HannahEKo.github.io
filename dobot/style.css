@@ -96,7 +96,7 @@ p {
     font-family: LFT Etica;
     font-weight: Regular;
 }
-@media (max-width: 780) {
+@media (max-width: 780px) {
     article {
         padding-bottom: 50px;
         padding-top: 50px;
@@ -104,6 +104,9 @@ p {
     }
     h1 {
         max-width: none;
+    }
+    p {
+        width: 100%;
     }
     img {
         float: none;
