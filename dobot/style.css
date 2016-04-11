@@ -77,6 +77,7 @@ h1 {
     height: auto;
     margin-bottom: 15px;
     max-width: 500px;
+    float: left;
 }
 h2 {
     width: 50%;
@@ -126,6 +127,8 @@ button {
     font-family: LFT Etica;
     text-decoration: none;
     display: inline-block;
+    float: left;
+
 }
 img {
     position: article;
