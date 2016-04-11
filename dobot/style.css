@@ -47,12 +47,11 @@ body {
   height: 2900px;
 }
 article {
-    width: 1100px;
-    height: 800px;
+    width: 12520px;
+    height: 1000px;
     border-left: 76px;
     border-right: 76px;
-    border-bottom: 100px;
-    border-bottom-width: 2px solid #31393b;
+    border-bottom: 2px solid #31393b;
     border-top: 100px;
     border-style: solid;
     border-color: #1a2325;
@@ -68,7 +67,7 @@ section {
 h1 {
     position: article;
     float: left;
-    color:  #ffffff;
+    color:#ffffff;
     font-size:  36px;
     font-family: Quatro Slab;
     font-weight: Regular;
@@ -116,7 +115,6 @@ h4 {
 }
 button {
     position: article;
-    clear: left;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
