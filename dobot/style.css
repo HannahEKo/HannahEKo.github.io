@@ -140,8 +140,11 @@ button {
 
 }
 img {
+    position: article;
     float: right;
     width: 50%;
+    top: 0;
+    height: auto;
 }
 .clearfix {
     overflow: auto;
