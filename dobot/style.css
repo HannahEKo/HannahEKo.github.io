@@ -58,8 +58,7 @@ body {
     margin-right: auto;
 }
 article {
-    max-width: 2500px;
-    height: auto;
+    max-width: 1250px;
     margin-left: 7%;
     margin-right: 7%;
     padding-bottom: 100px;
@@ -68,7 +67,6 @@ article {
     clear: both;
 }
 h1 {
-    position: article;
     color:#ffffff;
     font-size: 36px;
     font-family: Quatro Slab;
@@ -77,11 +75,9 @@ h1 {
     width: 50%;
     height: auto;
     margin-bottom: 15px;
-    max-width: 1000px;
-    float: left;
+    max-width: 335px;
 }
 h2 {
-    position: article;
     width: 50%;
     color: #555a5b;
     font-size: 16px;
@@ -90,19 +86,15 @@ h2 {
     margin-bottom: 30px;
 }
 p {
-    position: article;
-    width: 50%;
-    height: auto;
     float: left;
+    width: 50%;
     color:  #abadad;
     font-size: 16px;
     font-family: LFT Etica;
     font-weight: Regular;
     line-height: 1.5em;
-    left: 0;
 }
 h3 {
-    position: article;
     float: left;
     color: #01bfc1;
     font-size: 16px;
@@ -113,7 +105,6 @@ h3 {
     border-bottom: 2px dotted #31393b;
 }
 h4 {
-    position: article;
     clear: left;
     color:  #ffffff;
     float: left;
@@ -125,7 +116,6 @@ h4 {
     margin-top: 42px;
 }
 button {
-    position: article;
     padding: 14px 25px;
     background-color: #01ccce;
     color: white;
@@ -135,37 +125,28 @@ button {
     font-family: LFT Etica;
     text-decoration: none;
     display: inline-block;
-    float: left;
-
 }
 img {
     position: article;
-    float: right;
     width: 50%;
-    top: 0;
+    float: right;
     height: auto;
 }
 .clearfix {
     overflow: auto;
 }
-@media only screen and (max-width: 779px) {
+@media only screen and (max-width: 669px) {
     h1 {
         font-size: 45px;
     }
-    p {
-        font-size: 13px;
-    }
     img {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 }
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 670px) {
     h1 {
-        font-size: 60px;
-    }
-    p {
-        font-size: 36px;
+        font-size: 24px;
     }
     img {
         width: 100%;
