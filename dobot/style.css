@@ -38,15 +38,24 @@ q:before, q:after {
     content: none;
 }
 table {
-    border-collapse: collapse;
+    display: table;
+    border-color: #1a2325;
+    width: 100%;
+    white-space: pre-wrap;
+    border-collapse: separate;
     border-spacing: 0;
+    margin: 0px;
+    text-align: start;
+    color: -webkit-text;
 }
 body {
-  background: #1a2325;
-  width:2000px;
-  height: 6000px;
-  margin: 0px;
-  display: block;
+
+    background: #1a2325;
+    width:100%;
+    margin: 0px;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
 }
 article {
     width: 2400px;
