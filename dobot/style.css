@@ -101,18 +101,6 @@ p {
     line-height: 1.5em;
     left: 0;
 }
-em {
-    position: article;
-    width: 50%;
-    height: auto;
-    float: left;
-    color:  #abadad;
-    font-size: 16px;
-    font-family: LFT Etica;
-    font-weight: Regular;
-    line-height: 1.5em;
-    left: 0;
-}
 h3 {
     position: article;
     float: left;
