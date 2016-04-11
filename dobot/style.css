@@ -53,11 +53,7 @@ article {
     border-right: 76px;
     border-bottom: 100px;
     border-top: 100px;
-    border-style: none
-    border
-    -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-             box-sizing: border-box;
+    border-style: none;
 }
 section {
     width: 460px;
@@ -67,11 +63,12 @@ section {
 h1 {
     position: article;
     float: left;
-    width: 50%;
     color:  #ffffff;
     font-size:  36px;
     font-family: Quatro Slab;
     font-weight: Regular;
+    width: 260px;
+    height: 80px;
 }
 h2 {
     position: article;
@@ -90,16 +87,6 @@ p {
     font-size:  16px;
     font-family: LFT Etica;
     font-weight: Regular;
-}
-em {
-    position: article;
-    float: left;
-    width: 50%;
-    color:  #abadad;
-    font-size:  16px;
-    font-family: LFT Etica;
-    font-weight: Regular;
-
 }
 h3 {
     position: article;
