@@ -44,7 +44,7 @@ table {
 body {
   background: #1a2325;
   width:2560px;
-  height: 5900px;
+  height: 6000px;
 }
 article {
     width: 2400px;
@@ -57,8 +57,8 @@ article {
 }
 section {
     position: article;
-    width: 50%;
-    height: 50%;
+    width: 1200px;
+    height: 1000px;
     border-bottom: 2px dotted #31393b;
 }
 h1 {
@@ -67,8 +67,8 @@ h1 {
     font-size: 36px;
     font-family: Quatro Slab;
     font-weight: Regular;
-    width: 260px;
-    height: 80px;
+    width: 1200px;
+    height: auto;
 }
 h2 {
     float: left;
@@ -79,7 +79,7 @@ h2 {
 }
 p {
     float: left;
-    width: 640px;
+    width: 1200px;
     color:  #abadad;
     font-size: 16px;
     font-family: LFT Etica;
@@ -95,7 +95,7 @@ h3 {
     display: inline-block;
 }
 em {
-    width: 300px;
+    width: 1000px;
     height: auto;
 }
 h4 {
@@ -118,8 +118,8 @@ button {
 }
 img {
     position: article;
-    width: 50%;
-    height: 800px;
+    width: 1200;
+    height: 1000px;
     float: right;
     top: 0px;
 }
