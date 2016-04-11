@@ -134,7 +134,7 @@ img {
 .clearfix {
     overflow: auto;
 }
-@media screen and (max-width: 780px) {
+@media only screen and (max-width: 780px) {
     h1 {
         font-size: 24px;
     }
@@ -142,10 +142,8 @@ img {
         font-size: 12px;
     }
     img {
-        float: none;
-        margin-top: 0;
-        padding-left: 0;
         width: 100%;
+        height: auto;
     }
     h3 {
         border-bottom: none;
