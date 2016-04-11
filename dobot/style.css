@@ -96,25 +96,6 @@ p {
     font-family: LFT Etica;
     font-weight: Regular;
 }
-@media (max-width: 780px) {
-    article {
-        padding-bottom: 50px;
-        padding-top: 50px;
-        padding-right: 0;
-    }
-    h1 {
-        max-width: none;
-    }
-    p {
-        width: 100%;
-    }
-    img {
-        float: none;
-        margin-top: 0;
-        padding-left: 0;
-        width: 100%;
-    }
-}
 h3 {
     float: left;
     color: #01bfc1;
@@ -151,4 +132,46 @@ img {
 }
 .clearfix {
     overflow: auto;
+}
+@media (max-width: 780px) {
+    article {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    h1 {
+        max-width: none;
+        font-size: 24px;
+    }
+    p {
+        width: 100%;
+        font-size: 12px;
+    }
+    img {
+        float: none;
+        margin-top: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+@media (min-width: 779px) {
+    article {
+        padding-bottom: 50px;
+        padding-top: 50px;
+        padding-right: 0;
+    }
+    h1 {
+        min-width: none;
+        font-size: 42px;
+    }
+    p {
+        width: 100%;
+        font-size: 20px;
+    }
+    img {
+        float: none;
+        margin-top: 0;
+        padding-left: 0;
+        width: 100%;
+    }
 }
