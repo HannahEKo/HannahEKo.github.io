@@ -43,15 +43,15 @@ table {
 }
 body {
   background: #1a2325;
-  width:1280px;
-  height: 2900px;
+  width:1250px;
+  height: 2950px;
 }
 article {
-    width: 12520px;
+    width: 1250px;
     height: 1000px;
     border-left: 76px;
     border-right: 76px;
-    border-bottom: 2px solid #31393b;
+    border-bottom: 100px solid #31393b;
     border-top: 100px;
     border-style: solid;
     border-color: #1a2325;
@@ -60,8 +60,8 @@ article {
           box-sizing: border-box;
 }
 section {
-    width: 460px;
-    height: 700px;
+    width: 380px;
+    height: 470px;
     border-bottom: 2px dotted #31393b;
 }
 h1 {
@@ -92,6 +92,7 @@ p {
     font-size:  16px;
     font-family: LFT Etica;
     font-weight: Regular;
+    line-height: 2em;
 }
 h3 {
     position: article;
