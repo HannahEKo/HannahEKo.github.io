@@ -67,7 +67,6 @@ article {
     clear: both;
 }
 h1 {
-    float: left;
     color:#ffffff;
     font-size: 36px;
     font-family: Quatro Slab;
@@ -79,7 +78,6 @@ h1 {
     max-width: 335px;
 }
 h2 {
-    float: left;
     width: 50%;
     color: #555a5b;
     font-size: 16px;
@@ -131,10 +129,7 @@ button {
 img {
     position: article;
     width: 50%;
-    margin-top: -148px;
-    max-width: 640px;
     float: right;
-    padding-left: 8.5%;
 }
 .clearfix {
     overflow: auto;
@@ -150,6 +145,13 @@ img {
         float: none;
         margin-top: 0;
         padding-left: 0;
+        width: 100%;
+    }
+    h3 {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    h4 {
         width: 100%;
     }
 }
