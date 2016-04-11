@@ -43,8 +43,10 @@ table {
 }
 body {
   background: #1a2325;
-  width:2560px;
+  width:2000px;
   height: 6000px;
+  margin: 0px;
+  display: block;
 }
 article {
     width: 2400px;
