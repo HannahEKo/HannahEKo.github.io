@@ -155,17 +155,3 @@ img {
         width: 100%;
     }
 }
-@media screen and (min-width: 779px) {
-    h1 {
-        font-size: 42px;
-    }
-    p {
-        font-size: 20px;
-    }
-    img {
-        float: none;
-        margin-top: 0;
-        padding-left: 0;
-        width: 100%;
-    }
-}
