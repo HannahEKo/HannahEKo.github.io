@@ -92,6 +92,7 @@ h2 {
 p {
     position: article;
     width: 50%;
+    height: auto;
     float: left;
     color:  #abadad;
     font-size: 16px;
@@ -139,8 +140,8 @@ button {
 img {
     position: article;
     float: right;
-    height: auto;
     top: 0;
+    right: 0;
     width: 50%;
 }
 .clearfix {
