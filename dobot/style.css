@@ -47,8 +47,8 @@ body {
   height: 2950px;
 }
 article {
-    width: 1280px;
-    height: 1000px;
+    width: 100%;
+    height: 100%;
     border-left: 76px;
     border-right: 76px;
     border-bottom: 100px;
@@ -56,7 +56,8 @@ article {
     border-style: solid #1a2325;;
 }
 section {
-    width: 640px;
+    position: article;
+    width: 50%;
     height: 800px;
     border-bottom: 2px dotted #31393b;
 }
@@ -116,7 +117,8 @@ button {
     display: inline-block;
 }
 img {
-    width: 640px;
+    position: article;
+    width: 50%;
     height: 800px;
     float: right;
     top: 0px;
