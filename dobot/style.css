@@ -85,7 +85,6 @@ p {
     font-size:  16px;
     font-family: LFT Etica;
     font-weight: Regular;
-    line-height: 1em;
 }
 h3 {
     float: left;
@@ -96,10 +95,13 @@ h3 {
     text-decoration: none;
     display: inline-block;
 }
+em {
+    width: 380;
+    height: auto;
+}
 h4 {
     position: article;
     clear: left;
-    width: 50%;
     color:  #ffffff;
     font-size:  24px;
     font-family: Quatro Slab;
