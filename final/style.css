@@ -35,3 +35,105 @@ body {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+header {
+top: 0px; 
+width: 980px; 
+height: 208px; 
+position: absolute; 
+left: 0px;
+}
+.containter {
+    top: 0px; 
+    width: 980px; 
+    position: static; 
+    height: 863px;
+}
+h1 {
+    line-height: 1.2em;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Snell Roundhand",01-scrip, cursive;
+    position: absolute;
+}
+.slideshow { 
+    width: 980px; 
+    position: absolute; 
+    left: 0px; height: 155px; 
+    bottom: auto; 
+    top: 708px;"
+}
+.slides {
+    width:65px;
+    height:19px;
+    top:77px;
+    bottom:;
+    left:444px;
+    right:;
+    position:absolute;
+}
+.sldie1 {
+    width:19px;
+    height:19px;
+    margin-bottom:0;
+    margin-right:4px;
+    display:inline-block;
+}
+.slide2 {
+    width:19px;
+    height:19px;
+    margin-bottom:0;
+    margin-right:4px;
+    display:inline-block;
+}
+.slide3 {
+    width:19px;
+    height:19px;
+    margin-bottom:0;
+    margin-right:4px;
+    display:inline-block;
+}
+.mainNav {
+    top: 176px; 
+    left: 0px;
+    width: 980px; 
+    position: absolute; 
+    height: 32px;
+}
+.menu-main-container {
+    display: inline-block; 
+    text-align: center; 
+    overflow: visible; 
+    height: 31px;
+}
+.main-menu {
+    display: inherit; 
+    color: grey; 
+    width: 196px; 
+    height: 32px; 
+    position: relative; 
+    box-sizing: border-box; 
+    overflow: visible;
+}
+.menu-portfolio {
+    text-align:center;
+    line-height: 18px;
+}
+.menu-portfolio2 {
+    text-align: center; 
+    line-height: 18px;"
+}
+.menu-portfolio3 {
+    text-align:center;
+    line-height: 18px;
+}
+.menu-portfolio4 {
+    text-align:center;
+    line-height: 18px;
+}
+.wrap {
+    top: 208px; 
+    width: 980px; 
+    height: 500px; 
+    position: absolute; 
+    left: 0px;
+}
