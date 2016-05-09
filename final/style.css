@@ -34,6 +34,12 @@ html, body {
 body {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    top:0;
+    height:100%;
+    width:100%;
+    background-color:rgba(255, 255, 255, 1);
+    display:;
+    position:absolute;
 }
 header {
 top: 0px; 
@@ -42,7 +48,7 @@ height: 208px;
 position: absolute; 
 left: 0px;
 }
-.containter {
+.container {
     top: 0px; 
     width: 980px; 
     position: static; 
@@ -155,3 +161,42 @@ h1 {
     position:relative;
     overflow:hidden;
 }
+.iam_content {
+    top: 0px; 
+    left: 0px; 
+    width: 980px; 
+    height: 707px; 
+    position: absolute;
+    background-color:rgba(255, 255, 255, 1);
+    display:;position:absolute;
+}
+.slef {
+    width: 389px; 
+    height: 396px; 
+    object-fit: cover;
+    position: relative;
+}
+.structure {
+    top: 0px; 
+    width: 980px; 
+    height: 500px; 
+    position: absolute; 
+    left: 0px;
+}
+h2 {
+    text-align: center; 
+    font-size: 30px;
+    font-family:Josefin Slab,serif;
+}
+.contacts {
+    width: 341px; 
+    height: 240px; 
+    object-fit: cover;
+}
+p {
+    text-align: center;
+    font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
+    font-size: 15px;
+}
+
+
