@@ -137,3 +137,10 @@ h1 {
     position: absolute; 
     left: 0px;
 }
+.pageHead {
+    top: 0px; 
+    left: 0px; 
+    width: 980px; 
+    height: 608px; 
+    position: absolute;
+}
