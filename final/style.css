@@ -52,7 +52,8 @@ h1 {
     line-height: 1.2em;
     text-align: center;
     font-size: 60px;
-    font-family: "Snell Roundhand",01-scrip, cursive;
+    font-family: Snell Roundhand;
+    font-weight: Regular;
     position: absolute;
 }
 .slideshow { 
