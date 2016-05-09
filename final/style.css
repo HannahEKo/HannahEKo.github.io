@@ -144,3 +144,13 @@ h1 {
     height: 608px; 
     position: absolute;
 }
+.everything {
+   height: 608px; 
+   width: 564px;"
+}
+.project {
+    width:178px;
+    height:176px;
+    position:relative;
+    overflow:hidden;
+}
