@@ -86,6 +86,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 			<div id="main" class="clearfix">
 				 <<pseudo:before>></<pseudo:before>>
 				<div class="wrap">
@@ -115,7 +116,11 @@
 							</div>
 							<<pseudo:after>></<pseudo:after>>
 						</div>
+					</div>
+				</div>
+			</div>
 		</div>
+
 	</body>
 	<body class="artwork">
 		<div id"container">
@@ -226,6 +231,101 @@
 				</div>
 			</div>
 		</div>
+		<!-- end container -->
+		<script type="text/javascript">var SHRSB_Settings = [];</script>
+		<script type="text/javascript">var SHRRD_Settings = [];</script>
+		<script type="text/javascript">
+//<![CDATA[
+jQuery.noConflict();
+jQuery(document).ready(function() {	
+    jQuery('#slides').cycle({ 
+	    fx:     'fade', 
+    	speed:   500, 
+    	timeout: 25000,  
+    	pause:   1,   
+	    next:   '#slideshowNext', 
+	    prev:   '#slideshowPrev',
+		pager: '#slideshowNavPager',
+		pagerAnchorBuilder: function(idx, slide) {
+		        return '<a><span>'+(idx+1)+'</span></a>';
+		    }		
+	});
+});
+//]]>
+		</script>
+		<script>
+	        window.wpigplugJS.jQuery(document).ready(function($) {
+	        	try {
+		                $("ul.wpinstagram").find("a").each(function(i, e) {
+		                       	e = $(e);
+        	        	        e.attr('data-href', e.attr('href'));
+        		                e.attr('href', e.attr('data-original'));
+		                });
+
+        	        	var vids = $("ul.wpinstagram.live").find("a.mainI.video");
+        	        	if (vids && vids.length && vids.length > 0) {
+        	        		for (var i = 0; i < vids.length; i++) {
+        	        			var elem = vids[i];
+	        	        		elem.onclick = function(event){
+	        	        		event.stopPropagation();
+	        	        		var element = event.target || event.srcElement;
+	        	        		var element = element.parentNode;
+			        	        		$.fancybox({
+				        	                "transitionIn":                 "elastic",
+				        	                "height": '640',
+				        	                "width": '640',
+				        	                "content" : "<video width='640' height='640' controls poster='"+element.getAttribute('href')+"'> <source src='"+element.getAttribute('data-video')+"' type='video/mp4'><img src='"+element.getAttribute('href')+"'></video>",
+				                        	"transitionOut":                "elastic",
+			                        		"easingIn":                     "easeOutBack",
+			                		        "easingOut":                    "easeInBack",
+			        		                "titlePosition":                "over",   
+					                        "padding":                              0,
+			                        		"hideOnContentClick":   "false",
+			                        		"titleShow": false,
+			        		               			        	        })
+									return false;
+			        	        }
+	    	        		}
+	    	        	}
+				       $("ul.wpinstagram.live").find("a.mainI.image").fancybox({
+	        	                "transitionIn":                 "elastic",
+	                        	"transitionOut":                "elastic",
+                        		"easingIn":                     "easeOutBack",
+                		        "easingOut":                    "easeInBack",
+        		                "titlePosition":                "over",   
+		                        "padding":                              0,
+                        		"hideOnContentClick":   "false",
+                		        "type":                                 "image",   
+        		                titleFormat:                    function(x, y, z) {
+        		                        var html = '<div id="fancybox-title-over">';
+	
+	                	                if (x && x.length > 0) {  
+	                	                	x = x.replace(/^#([0-9a-zA-Z\u4E00-\u9FA5\-_]+)/g, '<a href="http://ink361.com/app/tag/$1" alt="View Instagram tag #$1" title="View Instagram tag #$1" target="_blank">#$1</a>');
+	                	                	x = x.replace(/[ ]#([0-9a-zA-Z\u4E00-\u9FA5\-_]+)/g, ' <a href="http://ink361.com/app/tag/$1" alt="View Instagram tag #$1" title="View Instagram tag #$1" target="_blank">#$1</a>');
+	                	                
+        	                        	        html += x + ' - ';
+	                        	        }
+
+                        	        	html += '<a href="http://ink361.com" target="_blank" alt="INK361 Instagram web viewer" title="INK361 Instagram web viewer">INK361 Instagram web viewer</a></div>';
+                	        	        return html;
+        	        	        }
+	        	        });
+		                $('#fancybox-content').live('click', function(x) {
+        	                	var src = $(this).find('img').attr('src');
+	                	        var a = $("ul.wpinstagram.live").find('a.[href="' + src + '"]').attr('data-user-url');                  		
+                		        document.getElementById('igTracker').src=$('ul.wpinstagram').find('a[href="' + src + '"]').attr('data-onclick');
+        		                window.open(a, '_blank');
+        		            });
+			} catch(error) {
+				console.log(error);
+				$("ul.wpinstagram").find("a").each(function(i, e) {
+		                       	e = $(e);
+        	        	        e.attr('href', e.attr('data-href'));
+        	        	        e.attr('target', '_blank');
+				});
+			}
+        	});
+		</script>
 	</body>
 	<body>
 		<div class="slidePhotos">
