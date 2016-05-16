@@ -18,18 +18,53 @@ time, mark, audio, video {
     vertical-align: baseline;
     background: transparent;
 }
-html {
-    display: block;
-}
-html, body {
-    height: 100%;
-}
 body {
-    overflow-x: auto;
-    overflow-y: scroll;
+    font: normal normal normal 14px/1.75 Glegoo, Georgia, serif;
+    color: #000;
 }
-html, body {
-    height: 100%;
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+#header {
+    overflow: hidden;
+    width: 100%;
+    height: 155px;
+}
+#logo {
+    margin: 60px auto 10px;
+    font-size: 60px;
+    font-family: "Snell Roundhand";
+    color: rgb( 57, 39, 39 );
+    line-height: 0.5;
+    text-align: center;
+    -moz-transform: scale(1.05, 1.2);
+    -webkit-transform: scale(1.05, 1.2);
+    -ms-transform: scale(1.05, 1.2);
+    position: absolute;
+    left: -40.904px;
+    top: 84.97px;
+    width: 375.77px;
+    height: 52.719px;
+    z-index: 38;
+}
+#header #subscribe {
+        list-style: none; 
+        float: right; 
+        margin: 35px 30px 0 0;
+        font-size: 16px;
+}
+#header #subscribe li.instagram {
+            background: left no-repeat;
+            padding: 5px 0 5px 40px; margin: 0 0 10px 0;
+}
+#header #subscribe li.facebook {
+            background: left no-repeat;
+            padding: 5px 0 5px 40px;
+}
+#header #subscribe li.behance {
+            background: left no-repeat;
+            padding: 5px 0 5px 40px;
 }
 body {
     font-size: 10px;
@@ -41,19 +76,6 @@ body {
     display:;
     position:absolute;
 }
-header {
-top: 0px; 
-width: 980px; 
-height: 208px; 
-position: absolute; 
-left: 0px;
-}
-.container {
-    top: 0px; 
-    width: 980px; 
-    position: static; 
-    height: 863px;
-}
 h1 {
     line-height: 1.2em;
     text-align: center;
@@ -62,141 +84,93 @@ h1 {
     font-weight: Regular;
     position: absolute;
 }
-.slideshow { 
-    width: 980px; 
-    position: absolute; 
-    left: 0px; height: 155px; 
-    bottom: auto; 
-    top: 708px;"
+#main #side {
+  font-size: 30px;
+  font-family: "Orator Std";
+  color: rgb( 225, 225, 225 );
+  line-height: 1;
+  text-align: center;
+  -moz-transform: scale(1.05, 0.9);
+  -webkit-transform: scale(1.05, 0.9);
+  -ms-transform: scale(1.05, 0.9);
+  position: absolute;
+  left: 60.105px;
+  top: 267.01px;
+  width: 1188.481px;
+  height: 18.081px;
+  z-index: 37;
 }
-.slides {
-    width:65px;
-    height:19px;
-    top:77px;
-    bottom:;
-    left:444px;
-    right:;
-    position:absolute;
+div {
+    display: block;
 }
-.sldie1 {
-    width:19px;
-    height:19px;
-    margin-bottom:0;
-    margin-right:4px;
-    display:inline-block;
-}
-.slide2 {
-    width:19px;
-    height:19px;
-    margin-bottom:0;
-    margin-right:4px;
-    display:inline-block;
-}
-.slide3 {
-    width:19px;
-    height:19px;
-    margin-bottom:0;
-    margin-right:4px;
-    display:inline-block;
-}
-.mainNav {
-    top: 176px; 
-    left: 0px;
-    width: 980px; 
-    position: absolute; 
-    height: 32px;
-}
-.menu-main-container {
-    display: inline-block; 
-    text-align: center; 
-    overflow: visible; 
-    height: 31px;
-}
-.main-menu {
-    display: inherit; 
-    color: grey; 
-    width: 196px; 
-    height: 32px; 
-    position: relative; 
-    box-sizing: border-box; 
-    overflow: visible;
-}
-.menu-portfolio {
-    text-align:center;
-    line-height: 18px;
-}
-.menu-portfolio2 {
-    text-align: center; 
-    line-height: 18px;"
-}
-.menu-portfolio3 {
-    text-align:center;
-    line-height: 18px;
-}
-.menu-portfolio4 {
-    text-align:center;
-    line-height: 18px;
-}
-.wrap {
-    top: 208px; 
-    width: 980px; 
-    height: 500px; 
-    position: absolute; 
-    left: 0px;
-}
-.pageHead {
-    top: 0px; 
-    left: 0px; 
-    width: 980px; 
-    height: 608px; 
+#nav {
+    width: 100%;
+    max-width: 1000px;
     position: absolute;
+    left: 0;
+    top: 98px;
 }
-.everything {
-   height: 608px; 
-   width: 564px;"
+#nav ul.main li a {
+  font-size: 30px;
+  font-family: Orator Std;
+  color: rgb( 225, 225, 225 );
+  line-height: 1;
+  text-align: center;
+  -moz-transform: scale(1.05, 0.9);
+  -webkit-transform: scale(1.05, 0.9);
+  -ms-transform: scale(1.05, 0.9);
+  position: absolute;
+  left: 60.105px;
+  top: 267.01px;
+  width: 1188.481px;
+  height: 18.081px;
+  z-index: 37;
+  text-transform: uppercase;
+  display: block;
 }
-.project {
-    width:178px;
-    height:176px;
-    position:relative;
-    overflow:hidden;
+#content {
+    clear: both;
 }
-.iam_content {
-    top: 0px; 
-    left: 0px; 
-    width: 980px; 
-    height: 707px; 
-    position: absolute;
-    background-color:rgba(255, 255, 255, 1);
-    display:;position:absolute;
+ul.art-piece {
+    width: 100%;
+    max-width: 1000px;
 }
-.slef {
-    width: 389px; 
-    height: 396px; 
-    object-fit: cover;
-    position: relative;
-}
-.structure {
-    top: 0px; 
-    width: 980px; 
-    height: 500px; 
-    position: absolute; 
-    left: 0px;
-}
-h2 {
-    text-align: center; 
-    font-size: 30px;
-    font-family:Josefin Slab,serif;
-}
-.contacts {
-    width: 341px; 
-    height: 240px; 
-    object-fit: cover;
-}
-p {
+ul.art-piece li {
+    width: 25%;
+    height: 395px;
+    float: left;
+    color: #404040;
+    font-size: 13px;
+    overflow: hidden;
     text-align: center;
-    font-family:courier new,courier-ps-w01,courier-ps-w02,courier-ps-w10,monospace;
-    font-size: 15px;
+    font-family: Karla, Georgia, serif;
+    margin-bottom: 10px;
 }
-
+ul.art-piece li a {
+    font-size: 14px;
+    color: #313131;
+    font-weight: 800;
+}
+li.image-holder {
+    width: 240px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+li.art-piece {
+    width: 240px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+ul.art-piece li img {
+    margin: 0 auto 16px;
+    max-width: 240px;
+    max-height: 300px;
+}
+ul.art-piece li h2, ul.art-piece li a {
+    font-size: 14px;
+    color: #313131;
+    font-weight: 800;
+}
 
